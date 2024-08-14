@@ -1,0 +1,384 @@
+ .html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font: Futura-Bold;
+ }
+ 
+ #container{
+    border-radius: 1.4rem;
+    position: absolute;
+    height:80%;
+    width: 60%;
+    left:20%;
+    right: 20%;
+    top: 5%;
+    
+    background-color:hsl(231, 100%, 99%) ;
+    z-index: 0;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 1rem,1rem,2.5rem hsl(200,2%, 75%);
+   
+}
+
+#container3{
+    border-radius: 1.4rem;
+    position: absolute;
+    height:80%;
+    width: 60%;
+    left:20%;
+    right: 20%;
+    top: 5%;
+    
+    background-color:hsl(231, 100%, 99%) ;
+    z-index: 0;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 1rem,1rem,2.5rem hsl(200,2%, 75%);
+   
+}
+
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 100%, 97%)
+}
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 100%, 97%)
+}
+
+
+#info1 h1,p
+{
+    z-index: 100;
+    left: 50%;
+    font-size: 1.3rem;
+    
+}
+
+#info1 h1{
+    font-size: 2rem;
+}
+
+#content1 input[type="text"],#content1 input[type="email"],
+#content1 input[type="tel"]{
+    width: 100%;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border: 0.1rem solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+            
+}
+
+#content1{
+    position: absolute;
+    width: 45%;
+    left: 40%;
+    top:10%
+}
+
+.nextpage{
+    width: 7rem;
+    height: 3.2rem;
+    position: absolute;
+    right: 4.5%;
+    bottom: 4.5%;
+    background-color: blue;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    contain: content;
+    color: aliceblue;
+}
+
+.prevpage{
+    width: 7rem;
+    height: 3.2rem;
+    position: absolute;
+    left: 34.5%;
+    bottom: 4.5%;
+    background-color: blue;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    contain: content;
+    color: aliceblue;
+}
+
+
+.sideimg{
+    
+    left: 0%;
+    height: 100%;
+   
+    position: absolute;
+    width: 30%;
+    float: left;
+   left: 3%;
+    padding: 0;
+    
+}
+
+.give-color {
+    border: none;
+    color: hsl(213, 96%, 18%);
+    background-color: hsl(206, 94%, 87%);
+}
+
+.num1, .num2, .num3, .num4 {
+    border: 1px solid white;
+    color: hsl(231, 100%, 99%);
+}
+
+.box {
+    /* border: 2px solid red; */
+    position: absolute;
+    left:5%;
+    height:60%;
+top:15%;
+    
+    
+    width:25%;
+}
+
+.con {
+    float: right;
+    width: 70%;
+    /* border: black 2px solid; */
+    height: 5rem;
+   
+}
+
+.con h5 {
+    
+    width: 70%;
+    /* border: black 2px solid; */
+    height: 5rem;
+   
+}
+
+.num {
+    float: left;
+    /* height: 10px; */
+    width: 30%;
+    height: 50px;
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.num h3 {
+    display: inline;
+    border-radius: 100px;
+    padding: 5px 10px;
+    /* color: green; */
+}
+
+.num h3 {
+    display: inline;
+    border-radius: 100px;
+    
+}
+
+.clearfix {
+    clear: both;
+}
+
+#content2{
+    position: absolute;
+    width: 45%;
+    left: 40%;
+    top:10%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.plan1,.plan2,.plan3
+{
+    border: 1px black solid;
+    float: left;
+    width: 100%;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 1.7rem;
+
+}
+
+.plan1:hover,.plan2:hover,.plan3:hover
+{
+    border: 1px black solid;
+    float: left;
+    width: 100%;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 1.7rem;
+    background-color: aquamarine;
+
+}
+
+#box2{
+    display: flex;
+    flex-direction: row;
+}
+
+.infinalpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ndpage4{
+    height: 272px;
+    display: none;
+}
+
+.upperndpage4{
+    height: fit-content;
+    background-color: hsl(240, 11%, 93%);
+    padding-bottom: 5px;
+}
+
+
+.final1 {
+    margin-bottom: 15px;
+    border-bottom: solid 1px hsl(231, 11%, 63%);
+    padding: 15px 0;
+}
+.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.finaleq {
+    margin: 10px auto;
+
+}
+
+.lowerndpage4 {
+    
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.infinalpage h1 {
+    color: hsl(213, 96%, 18%);
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.infinalpage p {
+    color: hsl(231, 11%, 63%);
+    /* letter-spacing: 1px; */
+    word-spacing: 1px;
+}
+
+.show {
+    display: block;
+}
+
+.finalmsg{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    display:flex;
+    align-items: flex-start;
+    top: 60%;
+    height: 40%;
+}
+
+.infinalpage{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+
+
+.addons{
+    position: absolute;
+    top: 20%;
+    height: 70%;
+    width: 60%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info4{
+    position: absolute;
+    top:3%;
+    width:55%;
+    left:45%;
+}
+.add{border: 0.1rem,solid,black;
+border-radius: 0.3rem;
+width:95%;
+height: 23%;
+margin-bottom: 3%;
+text-align: center;
+contain: content;
+}
+.check1{
+    position: absolute;
+left: 2%;
+top:45%
+}
+
+.check2{
+    position: absolute;
+left: 2%;
+top:41%;
+}
+
+.check3{
+    position: absolute;
+    left: 2%;
+    top:45%;
+}
+
+.add h6{position: absolute;
+    right: 10%;
+    top: 55%;
+}
+.num h3{position: absolute;
+}
+.num1{top:0%;}
+
+.num2{top:16%;}
+.num3{top: 34%;}
+.num4{top:51%;}
+
+.add:hover{
+    background: linear-gradient(rgb(164, 97, 212),rgb(142, 142, 231));
+}
+.box{color: white;}
